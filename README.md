@@ -2,6 +2,9 @@
 
 Servidor [MCP](https://modelcontextprotocol.io/) em Python que fala com o **Anki** via **AnkiConnect** (HTTP local). Expõe ferramentas para sincronizar, criar, buscar, editar e apagar notes. Por padrão, novos cards vão para o deck **Inglês** com o modelo **Básico** (campos Frente/Verso); isso é configurável por variáveis de ambiente (ver abaixo).
 
+<div align="center">
+  <img width="70%" alt="Captura de Tela do Anki MCP" src="https://github.com/user-attachments/assets/e9274d7b-037b-4f33-ba31-f53d5f7492d2" />
+</div>
 ## Requisitos
 
 - Anki aberto com o add-on [AnkiConnect](https://foosoft.net/projects/anki-connect/) (porta padrão `8765`).
