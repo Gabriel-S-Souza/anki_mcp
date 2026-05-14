@@ -27,7 +27,7 @@ Opcional: copie `.env.example` para `.env` e edite. Na subida do processo, o `se
 python server.py
 ```
 
-Configure o cliente MCP (por exemplo Cursor) para executar esse comando no diretório do projeto (assim o `.env` ao lado de `server.py` é encontrado).
+Configure o host MCP para executar esse comando a partir do diretório do projeto (assim o `.env` ao lado de `server.py` é encontrado).
 
 ### Variáveis de ambiente (opcional)
 
@@ -37,7 +37,7 @@ Configure o cliente MCP (por exemplo Cursor) para executar esse comando no diret
 | `ANKI_DECK` | `Inglês` | Deck onde `add_english_card` cria o note |
 | `ANKI_MODEL` | `Básico` | Nome do tipo de nota no Anki |
 
-No Cursor, defina `env` no JSON do servidor MCP ou use um arquivo `.env` na raiz do repositório (veja `.env.example`).
+Defina `env` na configuração do servidor MCP do seu cliente ou use um arquivo `.env` na raiz do repositório (veja `.env.example`).
 
 ## Ferramentas expostas
 
